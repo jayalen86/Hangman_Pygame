@@ -72,7 +72,7 @@ def draw_gameover_screen():
 
 game_running = True
 while game_running:
-    clock.tick(50)
+    clock.tick(30)
     for event in pygame.event.get():
         if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
             pygame.quit()
